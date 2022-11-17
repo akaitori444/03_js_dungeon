@@ -2,7 +2,7 @@
 
 ## DEMO
 
-  - デプロイしている場合はURLを記入（任意）
+  - [ダンジョン](https://akaitori444.github.io/03_js_dungeon/)
 
 ## 紹介と使い方
 
