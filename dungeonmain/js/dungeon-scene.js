@@ -142,6 +142,8 @@ export default class DungeonScene extends Phaser.Scene {
       this.hasPlayerReachedStairs = true;
       this.player.freeze();
       const cam = this.cameras.main;
+      const keep_level = this.level;
+      localStorage.setItem("level", keep_level);
       cam.fade(250, 0, 0, 0);
       cam.once("camerafadeoutcomplete", () => {
         this.player.destroy();
