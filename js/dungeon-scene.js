@@ -13,10 +13,10 @@ export default class DungeonScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("tiles", "https://github.com/akaitori444/03_js_dungeon/blob/main/assets/tilesets/buch-tileset-48px-extruded.png?raw=true");
+    this.load.image("tiles", "../assets/tilesets/buch-tileset-48px-extruded.png");
     this.load.spritesheet(
       "characters",
-      "https://github.com/akaitori444/03_js_dungeon/blob/main/assets/spritesheets/buch-characters-64px-extruded.png?raw=true",
+      "../assets/spritesheets/buch-characters-64px-extruded.png",
       {
         frameWidth: 64,
         frameHeight: 64,
