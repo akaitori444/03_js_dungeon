@@ -1,7 +1,7 @@
 import Player from "./player.js";
 import TILES from "./tile-mapping.js";
 import TilemapVisibility from "./tilemap-visibility.js";
-Origin: https://akaitori444.github.io;
+Origin: 'https://akaitori444.github.io';
 
 /**
  * 新たなダンジョンを生成するシーン
